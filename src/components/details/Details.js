@@ -6,12 +6,12 @@ import "./detailsStyles.css"
 
 function Details(props) {
   const { id } = useParams()
-  const listing = props.listings.find(l => l.id == id)
+  const listing = props.listings.find(l => l.id === id)
 
   useEffect(() => {
     props.clearMarker()
     props.fetchMarker(listing.address)
-  }, [])
+  }, [listing.address, props])
 
   return (
     <>

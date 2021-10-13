@@ -15,7 +15,7 @@ import "./listingStyles.css"
 function Listing(props) {
   useEffect(() => {
     props.clearMarker()
-  }, [])
+  }, [props])
 
   return (
     <>

@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core"
 import { Link } from "react-router-dom"
 import { green, grey } from "@material-ui/core/colors"
 import cookie from "cookie"
-import { History, withRouter } from "react-router-dom"
+import {  withRouter } from "react-router-dom"
 
 import "./navigationStyles.css"
 

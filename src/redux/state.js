@@ -1,4 +1,4 @@
-export default {
+const state = {
   user: null,
   maps: {},
   isLoggedIn: false,
@@ -47,3 +47,5 @@ export default {
     }
   ]
 }
+
+export default state;
